@@ -1,7 +1,7 @@
 
 Feature: Login Feature
 
-  @Smoke
+  @Smoke @regression
   Scenario: User should be able to login into the application 
     Given User is at Home Page
     When User enters the "admin" and "admin"
